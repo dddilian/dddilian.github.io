@@ -1,0 +1,116 @@
+#section7MainWrapper {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #222222;
+}
+
+
+#section7InnerWrapper {
+    box-sizing: border-box;
+    height: 487px;
+    width: 100%;
+
+    padding-bottom: 10px;
+
+
+
+}
+
+#section7H1 {
+    font-size: 25px;
+    font-weight: 400;
+    width: 100%;
+    height: 36px;
+    margin: 20px 0 10px 0;
+    box-sizing: border-box;
+}
+
+#section7UlDiv {
+    width: 100%;
+    height: 49px;
+    border-bottom: 1px solid gray;
+    background-color: white;
+}
+
+.section7UlLi {
+    display: inline-block;
+    padding: 13px 30px;
+    margin-right: 2px;
+    border-top: 1px transparent red;
+    font-size: 13px;
+}
+
+.active {
+    border-top: 3px solid blue;
+    box-shadow: 2px 0px 5px -1px rgba(218, 204, 204, 0.7);
+    border-bottom: 1px transparent;
+    padding-bottom: 20px;
+}
+
+#topBrandsDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 361px;
+    padding: 40px 0px;
+    background-color: white;
+    box-sizing: border-box;
+
+
+}
+
+#row1 {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+#row2 {
+    box-sizing: border-box;
+    display: flex;
+    margin-top: -6px;
+}
+
+.topBrandsDivChildDiv {
+    width: 198px;
+    height: 137px;
+    box-sizing: border-box;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.topBrandsDivChildDiv img {
+    width: 99px;
+    height: 43px;
+
+}
+
+
+.upperRowDiv {
+
+    border-right: 1px solid #eee;
+    /* border-bottom: 1px solid #eee; */
+
+
+}
+
+.bottomRowDiv {
+    border-right: 1px solid #eee;
+    /* border-top: 1px solid gray; */
+   
+
+}
+
+.upperRowDivLastDiv {
+    border-right: none;
+}
+
+.bottomRowDivLastDiv {
+    border-right: none;
+}

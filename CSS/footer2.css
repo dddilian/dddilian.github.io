@@ -1,0 +1,44 @@
+#footer2MainDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 115px;
+    box-sizing: border-box;
+}
+
+#footerDiv2Child {
+    width: 305px;
+    box-sizing: border-box;
+}
+
+.footerDiv2ChildDivAnchor {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin: 0 0 20px;
+    display: block;
+
+    text-decoration: none;
+    color: #3959c3;
+}
+
+.footerDiv2ChildUl li {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 2.5;
+
+
+}
+
+.footerDiv2ChildUl li img {
+ width: 27px;
+ height: 27px;
+
+
+}
+
+.footerDiv2ChildUl li a {
+    text-decoration: none;
+    color: #888888;
+    display: block;
+
+}

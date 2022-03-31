@@ -1,0 +1,119 @@
+#section6MainWrapper {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #222222;
+}
+
+
+
+
+#section6InnerWrapper {
+    box-sizing: border-box;
+    height: 417px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+
+}
+
+
+.section6and6HeaderDiv {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.section5and6HeaderDiv h1 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.section6and6AnchorDiv {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.section6and6HeaderDiv a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #005eb8;
+}
+
+.section6and6HeaderDiv a:hover {
+    color: #222222;
+}
+
+
+#section6Img {
+    width: 600px;
+    height: 352px;
+}
+
+#section6SecondInnerDiv {
+    font-size: 13px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#section6SecondInnerDiv a {
+    text-decoration: none;
+    color: #222222;
+
+}
+
+#section6SecondInnerDiv a:hover {
+    text-decoration: underline;
+
+}
+
+#section6Ul1Div {
+    line-height: 1.428571429;
+    width: 300px;
+    height: 352px;
+    padding: 10px 20px;
+    background-color: #f4f8fb;
+    box-sizing: border-box;
+
+}
+
+#section6Ul1 li {
+    margin: 6px 0 6px 10px;
+    line-height: 1.428571429;
+}
+
+.section6headAnchorLi {
+    margin: 6px 0 6px -10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+
+#section6Ul2Div {
+    line-height: 1.428571429;
+    width: 300px;
+    height: 352px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+
+.section6Ul2Li {
+    display: block;
+    padding: 13px 10px;
+    margin: 1px 10px 1px 20px;
+    border-bottom: 1px solid gainsboro;
+
+}
+
+#section6Ul2lastLi {
+    border-bottom: 1px transparent;
+}

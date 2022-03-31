@@ -1,0 +1,98 @@
+#section11MainWrapper {
+
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+
+}
+
+
+#section11InnerWrapper {
+
+    background: #005bc3;
+    height: 100%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    position: relative;
+
+
+}
+
+#section11H2 {
+    font-size: 32px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+}
+
+#section11Ul {
+    list-style: disc;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    line-height: 1.428571429;
+}
+
+#section11Ul li span {
+    font-weight: 600;
+}
+
+#section11LeftDiv {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+#section11Img {
+
+    width: 629px;
+    height: 291px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#section11LogoImg {
+    width: 260px;
+    height: 29px;
+}
+
+/* #section11BtnDiv {
+    width: 315px;
+    margin-top: 5px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 2px solid #eb3424;
+    text-align: center;
+} */
+
+
+
+#section11Btn {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    letter-spacing: 1px;
+
+    width: 315px;
+    margin-top: 5px;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 2px solid #eb3424;
+    text-align: center;
+
+}
+
+#section11Btn:hover {
+    background-color: white;
+    border-color: white;
+    color: #eb3424;
+}

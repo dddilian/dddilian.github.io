@@ -1,0 +1,379 @@
+/* .wrapper {
+
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+
+} */
+
+.section3MainWrapper {
+    width: 100%;
+    height: 498px;
+    box-sizing: border-box;
+}
+
+#section3InnerWrapper {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+}
+
+
+#section3FirstFlexDiv {
+    margin-top: 0;
+    padding-top: 20px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+#section3ImgDiv {
+    margin: 0px 97px;
+    /* height: 120px; */
+}
+
+#section3ImgDiv img {
+    height: 120px;
+    width: 600px;
+}
+
+#section3AnchorDiv {
+    width: 203px;
+    height: 120px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#section3AnchorDiv a {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+
+    font-weight: 400;
+
+    background-color: #fff;
+    color: #222222;
+    border: 1px solid transparent;
+
+    line-height: 20px;
+    border-radius: 3px;
+
+    padding: 5px 11px;
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 3px;
+
+}
+
+
+/* ----------------------------------------------------------- */
+
+
+#section3SecondFlexDiv {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 10px;
+
+}
+
+.section3SecondFlexDivChild {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-flow: column;
+    /* gap: 15px; */
+
+
+
+    width: 202px;
+    height: 308px;
+
+    background-color: #ffffff;
+    border-radius: 5px;
+
+    padding-bottom: 5px;
+    /* padding: 5px; */
+    box-sizing: border-box;
+}
+
+.divCardHeading {
+
+    padding: 10px 5px;
+}
+
+.iCardHeart {
+    /* position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 15px;
+    content: '\2665'; */
+
+    height: 18px;
+    width: 19px;
+
+
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    content: url('../assets/images/heart.png');
+    /* background-image: url('./assets/img/star_empty.png'); */
+    /* background-repeat: no-repeat;
+    background-size: contain; */
+
+}
+
+.promoDiv {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+
+    position: absolute;
+    top: 10px;
+    left: -5px;
+
+    background-color: rgb(255, 66, 0);
+
+    font-size: 13px;
+
+
+    letter-spacing: 0.03em;
+
+    text-align: center;
+
+
+    line-height: 1.3;
+
+    padding: 6px 5px;
+
+    color: #fff;
+
+    white-space: normal;
+
+    width: 62px;
+    height: 18px;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.divCardHeading img {
+    width: 137px;
+    height: 137px;
+}
+
+.divCardTitle {
+    width: 162px;
+    height: 56px;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    line-height: 18px;
+    /* padding: 0 15px 10px 15px; */
+
+    overflow: hidden;
+}
+
+.divCardTitle a {
+    text-decoration: none;
+
+}
+
+.divCardTitle a:visited {
+    color: #222222;
+}
+
+.divCardStars {
+    font-size: 12px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    margin-bottom: 5px;
+
+}
+
+.divCardStars a {
+    text-decoration: none;
+
+}
+
+.divCardStars a:visited {
+    color: #005eb8;
+
+}
+
+.descriptionAndPriceDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    gap: 10px;
+    width: 161px;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.price {
+    font-weight: 600;
+    color: #ef2809;
+    text-align: center;
+    font-size: 18px;
+
+    line-height: 20px;
+
+    height: 20px;
+    margin-bottom: 0;
+    text-decoration: none;
+
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.PCD {
+    color: #222222;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+.sup1 {
+    font-size: 8.45px;
+}
+
+.sup2 {
+    font-size: 11.7px;
+}
+
+#section3ThirdFlexDiv {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    box-sizing: border-box;
+
+}
+
+#section3ThirdFlexDivChild {
+    width: 130px;
+    height: 30px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.grayDotDiv {
+    width: 12px;
+    height: 12px;
+    /* display: inline-block; */
+    background-color: gray;
+    border: hidden 3px solid gray;
+
+
+
+    border-radius: 50%;
+    box-sizing: border-box;
+
+}
+
+.grayDotDiv:focus {
+    background-color: white;
+}
+
+.grayDotDiv:hover {
+    transform: scale(1.5);
+
+}
+
+
+.grayDotA {
+
+    text-decoration: none;
+
+}
+
+
+#section3LeftButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+    width: 42px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10%;
+    position: absolute;
+    z-index: 1;
+
+    left: -4.3%;
+    top: 50%;
+    text-decoration: none;
+}
+
+#section3RightButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    width: 42px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10%;
+    position: absolute;
+    z-index: 1;
+
+    left: 101%;
+    top: 50%;
+
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+#section3LeftButton:hover {
+    background-color: #ffffff;
+}
+
+#section3RightButton:hover {
+    background-color: #ffffff;
+}
+
+
+#leftIcon::before {
+    content: '\02C2';
+    font-size: 30px;
+    font-weight: bolder;
+    color: #005eb8;
+
+}
+
+#rightIcon::before {
+    content: '\02C3';
+    font-size: 30px;
+    font-weight: bolder;
+    color: #005eb8;
+
+}
+

@@ -1,0 +1,145 @@
+/* *:focus {
+    outline: none;
+} */
+
+#headerWrapper {
+    max-width: 1220px;
+    /* height: 56px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    
+}
+
+#headerMainDiv {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    
+    
+}
+
+#logo {
+    height: 36px;
+    width: 135px;
+    box-sizing: border-box;
+}
+
+#searchMainDiv {
+    height: 36px;
+    border: 1px solid #0082e6;
+    border-radius: 15px;
+    width: 579px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#searchIcon {
+    height: 20px;
+}
+
+
+#searchInputEl {
+    width: 93%;
+    height: 98%;
+    border-style: none;
+    background-color: #ffffff;
+}
+
+#searchInputEl:focus {
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+
+#profFavCartDiv {
+    width: 476px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profFavCartDivChild {
+    box-sizing: border-box;
+
+
+}
+
+#profFavCartDiv a {
+    text-decoration: none;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #222222;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+}
+
+#a1 {
+    width: 148px;
+    height: 34px;
+    box-sizing: border-box;
+}
+
+#a1i1::before {
+    content: url('../assets/images/profileCopy.png');
+}
+
+#a1i2::before {
+    /* content: '\25BC' */
+    content: url('../assets/images/triangle.png');
+}
+
+#a2 {
+    width: 122px;
+    height: 34px;
+    box-sizing: border-box;
+}
+
+#a2i1::before {
+    content: url('../assets/images/favCopy.png');
+}
+
+#a2i2::before {
+    content: url('../assets/images/triangle.png');
+}
+
+#a3 {
+    width: 167px;
+    height: 34px;
+    box-sizing: border-box;
+}
+
+#a3i1::before {
+    content: url('../assets/images/cartCopy.png');
+}
+
+#a3i2::before {
+    content: url('../assets/images/triangle.png');
+}
+
+#profFavCartDiv a img {
+    width: 23px;
+    height: 24px;
+    box-sizing: border-box;
+}
+
+#profFavCartDiv a span img {
+    height: 16px;
+    width: 8px;
+}
