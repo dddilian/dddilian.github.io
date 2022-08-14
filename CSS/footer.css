@@ -1,0 +1,176 @@
+#footer {
+    background: #e7eff8;
+    max-height: 320px;
+    width: 100%;
+
+}
+
+.footerWrapper {
+    max-height: 320px;
+    width: 100%;
+}
+
+#footer1 {
+    padding: 15px 0px 30px 0px;
+
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+
+.footer1Div {
+    width: 25%;
+}
+
+.footer1a {
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    color: #3959c3;
+    margin: 0 0 20px;
+}
+
+.footer1Ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+
+.footer1Ul li {
+    /* margin: 0 0 10px; */
+    font-size: 12px;
+    color: #888888;
+
+}
+
+.footer1Ul li img {
+    width: 27px;
+
+
+}
+
+.footer1Ul li:hover {
+    text-decoration: underline;
+
+}
+
+
+#imgLi {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+#footer2 {
+
+    border-top: 1px solid #e7e7e7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    padding: 15px 0px 30px 0px;
+}
+
+
+#footer2Div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+#f2d1p1 {
+    font-size: 10px;
+    color: #888888;
+}
+
+
+
+#f2d1p2 {
+    font-size: 12px;
+    color: #888888;
+    cursor: pointer;
+}
+
+#f2d1p2:hover {
+    text-decoration: underline;
+}
+
+
+#footer2Div2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-left: 120px;
+    margin-top: 5px;
+}
+
+
+
+#footer2Div2 img {
+    cursor: pointer;
+    width: 18px;
+    height: 19px;
+}
+
+
+#footer2Div3 {
+    margin-top: -5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3px;
+}
+
+
+#footer2Div3Anchor1 i {
+    content: url('../assets/images/footerItems/2634396_ensign_flag_nation_romania_icon.png');
+}
+
+#footer2Div3Anchor2 i {
+    content: url('../assets/images/footerItems/2634310_ensign_flag_hungary_nation_icon.png');
+}
+
+#footer2Div3Anchor3 i {
+    content: url('../assets/images/footerItems/flip.ico');
+}
+
+#footer2Div3Anchor4 i {
+    content: url('../assets/images/footerItems/flip.ico');
+}
+
+.flipIcon {
+
+    height: 22px;
+}
+
+.flagIcon {
+    height: 20px;
+    width: 16px;
+}
+
+#footer2Div3 a {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    color: #888888;
+    line-height: 1.428571429;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 4px;
+}
+
+#footer2Div3 a:hover {
+    text-decoration: underline;
+}
+
+#footer2Div3Anchor1 span,
+#footer2Div3Anchor1 span {
+    padding-bottom: 6px;
+}

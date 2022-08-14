@@ -1,0 +1,84 @@
+#section9 {
+    background: #f2f2f7;
+    max-height: 320px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.section9Wrapper {
+    max-height: 291px;
+    width: 100%;
+}
+
+#section9Div1 {
+    max-height: 291px;
+    color: #ffffff;
+    overflow: hidden;
+    position: relative;
+    background: #005bc3;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#section9Div1Div1 {
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+#sec9Logo {
+    max-width: 260px;
+    margin-bottom: -5px;
+}
+
+#sec9H2 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1;
+    padding-top: 7px;
+}
+
+#sec9Ul {
+    padding-left: 20px;
+    /* margin-top: 20px; */
+    padding-top: 15px;
+}
+
+
+#sec9Ul li {
+    list-style: disc;
+    font-size: 16px;
+
+}
+
+.strong {
+    font-weight: 700;
+}
+
+#sec9Btn {
+    font-weight: 600;
+    border-radius: 24px;
+    border: 2px solid;
+    max-width: 315px;
+    color: #ffffff;
+    background: transparent;
+    border-color: #eb3424;
+    box-shadow: none;
+    padding: 7px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    margin-top: 20px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#sec9Btn:hover {
+    color: #eb3424;
+    background: #ffffff;
+    border-color: #ffffff;
+}
+
+
+#sec9SecondImg {
+    max-width: 629px;
+}

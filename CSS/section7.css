@@ -1,0 +1,94 @@
+#section7 {
+    background: #f2f2f7;
+    max-height: 700px;
+    width: 100%;
+}
+
+.section7Wrapper {
+    max-height: 700px;
+    width: 100%;
+    padding-top: 30px;
+
+}
+
+#section7Div1 {
+    padding-bottom: 10px;
+}
+
+#section7Div2 {
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0 2px 12px -4px rgb(0 0 0 / 10%);
+}
+
+#section7Div1H2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* #section7Div2Div2Div{
+ 
+} */
+
+#section7Ul {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+#section7Ul li {
+    padding: 15px 30px 13px 30px;
+    font-size: 13px;
+    color: #666666;
+}
+
+.selectedLi {
+
+    border: 1px solid #ddd;
+    border-right-color: #eee;
+    border-bottom-color: #fff;
+    color: #005eb8 !important;
+    box-shadow: 0 -3px 10px -5px rgb(0 0 0 / 40%);
+    border-color: transparent;
+    border-top-width: 3px;
+    border-top-color: #005eb8;
+
+
+}
+
+
+#section7Div2Div2Div {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+}
+
+
+
+.brandDiv {
+    flex-grow: 1;
+    /* width: 250px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 60px;
+
+    border: 1px solid transparent;
+
+}
+
+.brandDiv:not(:nth-child(6n+6)) {
+    border-right-color: #eee;
+}
+
+.brandDiv:nth-child(n+7) {
+    border-top-color: #eee;
+}
+
+.brandDiv img {
+
+    width: 124px;
+
+}
+

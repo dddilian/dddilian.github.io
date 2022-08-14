@@ -1,0 +1,95 @@
+nav {
+    height: 40px;
+    width: 100%;
+    background: linear-gradient(to right, #ff1d25 5%, #a0328c 35%, #7040a4 45%, #4359c7 55%, #0082e6 70%);
+
+}
+
+.navWrapper {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    max-height: 40px;
+    justify-content: space-between;
+}
+
+
+#categoriesPlusUl {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+}
+
+#categoriesDiv {
+
+    padding: 5px 11px 10px 10px;
+    background-color: #fff;
+    line-height: 20px;
+    border-radius: 5px 5px 0px 0px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+#categoriesDiv img {
+    width: 14px;
+}
+
+#categoriesDiv span {
+    font-weight: 600;
+}
+
+#navUl {
+    display: flex;
+    gap: 4px;
+    font-size: 12px;
+}
+
+#navUl li a {
+    color: #fff;
+}
+
+#navUl li {
+    border-radius: 16px;
+    border: transparent 1px solid;
+    padding: 4px 10px;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+#navUl li:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+#headphonesA {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 16px;
+    border: transparent 1px solid;
+    padding: 4px 10px;
+    box-sizing: border-box;
+    /* margin-right: 10px; */
+    white-space: nowrap;
+}
+
+#headphonesA span {
+    color: #fff;
+    font-size: 12px;
+}
+
+#headphonesA:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+
+nav {
+    padding-top: 55px;
+}
